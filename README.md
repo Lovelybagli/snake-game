@@ -7,7 +7,7 @@ Sure, here are the simplified setup instructions:
 Open your terminal or command prompt and clone the project repository:
 ```bash
 git clone https://github.com/Lovelybagli/snake-game.git
-cd snake_game
+cd snake-game
 ```
 
 ## Step 2: Install Required Libraries
@@ -21,7 +21,7 @@ pip install -r requirements.txt
 
 Run the game script:
 ```bash
-python snake_game.py
+python main.py
 ```
 
 You should now be able to start and play the game following the on-screen instructions.
