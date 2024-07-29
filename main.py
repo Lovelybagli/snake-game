@@ -10,6 +10,7 @@ from tkinter import ttk
 SIZE = 40
 BACKGROUND_COLOR = (130, 224, 201)
 
+
 class  Screen:
     speed = 0.2
     def __init__(self):
@@ -33,8 +34,6 @@ class  Screen:
         root.geometry('1000x700')
         root.resizable(False, False)
         root.title('Snake Game')
-
-        # enter_button
 
         enter_button = ttk.Button(root,text='Start Game',command=start_game)
         enter_button.place(relx=0.5, rely=0.5, anchor='center')
